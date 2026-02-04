@@ -1,0 +1,9 @@
+# Ignorar binarios y plugins de Terraform
+.terraform/
+
+# Ignorar estados de la infraestructura (contienen secretos)
+*.tfstate
+*.tfstate.backup
+
+# Ignorar variables locales
+*.tfvars
